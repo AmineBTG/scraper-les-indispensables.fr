@@ -9,7 +9,7 @@ This Python script scrapes product details from the "Les Indispensables" website
 - Downloads product images and documents.
 - Saves product details to a CSV file.
 
-## Requirements
+## Main Requirements
 
 - Python 3.11.x
 - `requests` library
@@ -19,7 +19,14 @@ This Python script scrapes product details from the "Les Indispensables" website
 
 ## Installation
 
-1. Install the required libraries:
+1. Clone the repository:
+
+    ```sh
+    git clone https://github.com/AmineBTG/scraper-les-indispensables.fr.git
+    cd scraper-les-indispensables.fr
+    ```
+
+2. Install the required libraries:
 
     ```sh
     pip install -r requirements.txt
