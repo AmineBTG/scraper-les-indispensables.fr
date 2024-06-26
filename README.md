@@ -11,17 +11,18 @@ This Python script scrapes product details from the "Les Indispensables" website
 
 ## Requirements
 
-- Python 3.x
+- Python 3.11.x
 - `requests` library
 - `beautifulsoup4` library
 - `pandas` library
+- `openpyxl` library
 
 ## Installation
 
 1. Install the required libraries:
 
     ```sh
-    pip install requests beautifulsoup4 pandas openpyxl
+    pip install -r requirements.txt
     ```
 
 ## Usage
